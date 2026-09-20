@@ -27,9 +27,9 @@ Develop a modern data warehouse using MYSQL to consolidate sales data enabling a
 
 Develop SQL-based analytics to deliver detailed insights into:
 
-***Customer Behaviour**
-***Product Performance**
-***Sales Trends**
+*Customer Behaviour
+*Product Performance
+*Sales Trends
 
 These insights empower stakeholders with key business metrics enabling strategic descision-making
 
