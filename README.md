@@ -1,4 +1,4 @@
-Data Warehouse and Analytics project
+## Data Warehouse and Analytics project
 
 Welcome to the **Data Warehouse and Analytics Project** repository!
 This Project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse
@@ -21,7 +21,7 @@ Develop a modern data warehouse using MYSQL to consolidate sales data enabling a
 * **Documentation**: Provide clear documentation of data model to support both business stakeholders and analytics teams.
 
 
-**BI: Analytics & Reporting(Data Analytics)**
+## **BI: Analytics & Reporting(Data Analytics)**
 
 ## **Objective**
 
