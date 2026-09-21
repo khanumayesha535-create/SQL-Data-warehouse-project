@@ -5,11 +5,11 @@ This Project demonstrates a comprehensive data warehousing and analytics solutio
 to generating actionable insights. Designed as a  portfolio project, it highlights industry best practices in data
 engineering and analytics
 
-**Project Requirements**
+## **Project Requirements**
 
 Building the Data Warehouse(Data Engineering)
 
-**Objective**
+## **Objective**
 
 Develop a modern data warehouse using MYSQL to consolidate sales data enabling analytical reporting and informed decision making
 
@@ -23,7 +23,7 @@ Develop a modern data warehouse using MYSQL to consolidate sales data enabling a
 
 **BI: Analytics & Reporting(Data Analytics)**
 
-**Objective**
+## **Objective**
 
 Develop SQL-based analytics to deliver detailed insights into:
 
@@ -34,11 +34,12 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics enabling strategic descision-making
 
 
-**License**
+## **License**
 
 This Project is licensed under the MIT License. You are free to use modify and share this Project with proper attribution.
 
-**About Me**
+## **About Me**
+
 Hi, there! I'm** Ayesha Khanum** aspiring Business Analyst. I'm a finance professional and passionate about getting insights from data which help business in decision making.
 
 
