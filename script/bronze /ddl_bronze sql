@@ -1,0 +1,69 @@
+/*
+=============================================================================
+DDL Script: Create Bronze Tables
+=============================================================================
+Script Purpose:
+This Script Creates Tables in the 'bronze' schema, dropping existing tables
+if they already exist.
+Run this script to re-define the DDL structure of 'bronze' Tables
+============================================================================
+*/
+
+create database bronze;
+
+use bronze;
+drop table  if exists  crm_cust_info;
+
+create table crm_cust_info(
+cst_id int primary key,
+cst_key varchar(50),
+cst_firstname varchar(50),
+cst_lastname varchar(50),
+cst_marital_status varchar(50),
+cst_gndr varchar(50),
+cst_create_date date
+
+);
+
+create table crm_prd_info(
+prd_id int,
+prd_key varchar(50),
+prd_cost int,
+prd_line varchar(5),
+prd_start_dt DATE,
+prd_end_dt DATE
+);
+
+
+create table crm_sales_details(
+sls_ord_num varchar(50),
+sls_prd_key varchar(50),
+sls_cust_id int,
+sls_order_dt date,
+sls_ship_dt date,
+sls_due_dt date ,
+sls_sales int,
+sls_quantity int,
+sls_prie int
+);
+
+create table erp_cust_AZ12 (
+cid varchar(50),
+bddate date,
+gen varchar(50)
+);
+
+create table erp_loc_a101(
+cid varchar(50),
+cntry varchar(50)
+);
+
+create table erp_px_cat_g1v2 (
+id varchar(50),
+cat varchar(50),
+subcat varchar(50),
+maintenance varchar(50)
+);
+
+
+
